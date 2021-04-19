@@ -1,0 +1,9 @@
+html 
+    head 
+        title='Communities'
+    body 
+        h1='We have following communities'
+        ul
+            each val in communities
+                li=val.name
+                p='Members: '+val.members

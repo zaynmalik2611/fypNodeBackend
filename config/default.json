@@ -1,0 +1,7 @@
+{
+    "name": "My Backend",
+    "db": "mongodb://localhost/mysite",
+    "port": "5000",
+    "requiresAuth": false,
+    "jwtPrivateKey": ""
+}
